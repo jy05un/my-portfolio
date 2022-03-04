@@ -44,9 +44,10 @@
 }
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) =================*/
-@media screen and (max-width: 600){
+@media screen and (max-width: 600px){
     .portfolio__container {
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
     }
 }

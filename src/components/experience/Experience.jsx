@@ -11,7 +11,7 @@ const Experience = () => {
       <div className="container experience__container">
         <div className="experience__hacking">
           <h3>Cyber Security (Web)</h3>
-          <div className="experience__chinese">
+          <div className="experience__hacking">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>

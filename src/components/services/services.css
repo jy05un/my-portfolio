@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
+    transition: var(--transition);
 }
 
 .service {
@@ -63,9 +64,9 @@
 }
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) =================*/
-/* @media screen and (max-width: 600){
+@media screen and (max-width: 600px){
     .services__container {
         grid-template-columns: repeat(1, 1fr);
         gap: 1.5rem;
     }
-} */
+}
